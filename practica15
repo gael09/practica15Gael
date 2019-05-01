@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title> Practica 15 </title>
+	<script type="text/javascript" src="C:\Users\Gael\Desktop\imagenesp15\jquery.js"></script>
+	<script type="text/javascript" src="C:\Users\Gael\Desktop\imagenesp15\cycle.js"></script><script type="text/javascript">
+	$(document).ready(function(){
+		$('.carruseldeimagenes').cycle({
+			fx: 'fade'
+		});
+	});
+	</script>
+
+	<style type="text/css">
+	.TAMAÑO {
+		font-size: xx-large;
+		font-weight: bold;
+		color: #CF0;
+		font-style: italic;
+		text-align: center;
+	}
+
+	body{
+		background-color:#09B;
+		background-image:url (Imagenes/Imagen%20de%20fondo.jpg);
+	}
+	</style>
+	</head>
+	<body>
+	<p class="TAMAÑO">
+
+	<marquee> Carrusel de Imagenes</marquee></p>
+	<p> &nbsp;</p>
+	<div class="carruseldeimagenes">
+	<img src="C:\Users\Gael\Desktop\imagenesp15\20180706210207.jpg" alt="TEXTO" width="750" height="590");/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\20180909_181918.jpg" alt="TEXTO" width="750" height="590");/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\20181203_135815.jpg" alt="TEXTO" width="750" height="590");/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\20181206_200514.jpg" alt="TEXTO" width="750" height="590");/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\20181207_095210.jpg" alt="TEXTO" width="750" height="590");/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\20181207_103437.jpg" alt="TEXTO" width="750" height="590");/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\20181224_222806.jpg" alt="TEXTO" width="750" height="590");/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\20181224_224309.jpg" alt="TEXTO" width="750" height="590"/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\IMG-20181126-WA0012.jpg" alt="TEXTO" width="590" height="590"/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\IMG-20181212-WA0011.jpg" alt="TEXTO" width="590" height="590"/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\IMG-20190129-WA0024.jpg" alt="TEXTO" width="590" height="590"/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\IMG-20190207-WA0001.jpg" alt="TEXTO" width="590" height="590"/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\IMG-20190207-WA0004.jpg" alt="TEXTO" width="590" height="590"/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\IMG-20190209-WA0030.jpg" alt="TEXTO" width="590" height="590"/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\Snapchat-1586011133.jpg" alt="TEXTO" width="590" height="590"/>
+	<img src="C:\Users\Gael\Desktop\imagenesp15\Snapchat-2091728273.jpg" alt="TEXTO" width="590" height="590"/>
+
+</body>
+</html>
